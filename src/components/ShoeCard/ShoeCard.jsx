@@ -110,12 +110,15 @@ const Flag = styled.span`
     background-color: ${(props) =>
         (props.variant === "on-sale" && COLORS.primary) ||
         (props.variant === "new-release" && COLORS.secondary)};
-    padding: 7px 9px 9px 11px;
+    padding: 0 10px;
     color: ${COLORS.white};
     border-radius: 2px;
     top: 12px;
     right: -4px;
+    font-size: ${14 / 16}rem;
     font-weight: ${WEIGHTS.bold};
+    height: 32px;
+    line-height: 32px;
 `;
 
 export default ShoeCard;
